@@ -1,22 +1,33 @@
-html{
+html, body{
+    /* margin: 0;
+    padding: 0; */
     background-color: #1b1c1b;
     font-family: "Noto Sans", sans-serif;
-    width: 100%;
+    min-height: 100%;
+}
+
+hr {
+    border: dotted #334a33 6px;
+    border-bottom: none;
+    width: 15%;
+    margin: 15px auto;
 }
 
 .flexbox-container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100%;
     width: 40%;
-    background-color: #313632;
+    background: linear-gradient(45deg,#40413f, #282b28);
     margin:0px auto;
 }
+
+/* First flex item */
 
 .flex-item{
     width: 100%;
     height: 400px;
-    background-color: #313632;
+    
     /* border: 3px solid white; */
 }
 
@@ -25,7 +36,6 @@ html{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.3fr 1.3fr 1.2fr;
     color: white;
-    /* height: 100vh; */
 }
 
 .grid-item1{
@@ -65,7 +75,22 @@ html{
     margin-left: 10%;
 }
 
-/* .grid-item5{
-    
-} */
+/* Second flex item */
+.heading{
+    text-align: center;
+    color: rgb(64, 120, 224); 
+}
 
+.flex-item2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.projects{
+    width: 30%;
+    height: auto;
+    border: 3px solid red;
+}
+
+/* Third flex item */
