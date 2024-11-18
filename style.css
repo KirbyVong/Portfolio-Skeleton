@@ -18,7 +18,7 @@ hr {
     flex-direction: column;
     min-height: 100%;
     width: 40%;
-    background: linear-gradient(45deg,#40413f, #282b28);
+    background: linear-gradient(45deg,#4d4e4c, #1f221f);
     margin:0px auto;
 }
 
@@ -76,7 +76,7 @@ hr {
 }
 
 /* Second flex item */
-.heading{
+.p-heading{
     text-align: center;
     color: rgb(64, 120, 224); 
 }
@@ -85,7 +85,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 25px;
+    gap: 5%;
 }
 .projects{
     width: 30%;
@@ -94,3 +94,8 @@ hr {
 }
 
 /* Third flex item */
+
+.exp-heading{
+    color: #e0ad72;
+    margin-left: 5%;
+}
